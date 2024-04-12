@@ -1,0 +1,320 @@
+
+@font-face {
+    font-family: 'Anta';
+    src: url('Anta-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('Anta-Regular.woff') format('woff');  /* Legacy Browsers */
+}
+
+
+    body{
+        padding: 0px;
+        margin: 0px;
+        
+       text-align: center;
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    background-color: rgba(192, 217, 231, 0.709);
+    }
+    input[type="text"]{
+        width: 40px;
+    height: 40px;
+ font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+    }
+    input[type="text"]:focus{
+        outline: none;
+    }
+    .header1{
+        display: flex;
+        height: 60px;
+        background-color: rgba(34, 160, 234, 0.709);
+        border-bottom: 5px solid white;
+        border-radius: 3px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 29px;
+        font-weight: BOLD;
+        grid-area: header;
+    }
+      
+    
+    
+    #n3{
+        margin-left: 50px;
+    }
+   
+  
+   
+    
+    
+   
+  
+   #multiply{
+  
+   font-family: inherit;
+   width: 100px;
+   height: 40px;
+   font-size: 20px;
+   color: beige;
+   font-weight: bold;
+   background-color: rgb(81, 126, 205);
+   border-radius: 2px;
+   border: 3px solid rgb(255, 255, 255);
+   outline:  2px solid black;
+   
+   cursor: pointer;
+   -webkit-text-stroke:0.7px ;
+   -webkit-text-stroke-color: black;
+   
+   }
+   #multiply2{
+  
+    font-family: inherit;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: beige;
+    font-weight: bold;
+    background-color: rgb(81, 126, 205);
+    border-radius: 2px;
+    border: 3px solid rgb(255, 255, 255);
+    outline:  2px solid black;
+    
+    cursor: pointer;
+    -webkit-text-stroke:0.7px ;
+    -webkit-text-stroke-color: black;
+    
+    }
+   #multiply:hover{
+    outline: none;
+    color: black;
+   text-shadow: none;
+   }
+   #multiply2:hover{
+    outline: none;
+    color: black;
+   text-shadow: none;
+   }
+   /*for 3*3 */
+
+
+
+
+
+#clear{
+   
+   
+  
+   font-family: inherit;
+   width: 80px;
+   height: 40px;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   background-color: rgb(255, 255, 255);
+   border-radius: 2px;
+   border: 3px solid rgb(81, 126, 205);
+   outline:  2px solid black;
+   
+   cursor: pointer;
+   -webkit-text-stroke:0.7px ;
+   -webkit-text-stroke-color: black;
+}
+#clear:hover{
+    outline: none;
+    color: rgb(0, 0, 0);
+   text-shadow: none;
+   background-color: rgb(81, 126, 205);
+}
+
+/*mult res btn*/
+#multres{
+    position: relative;
+    
+    font-family: inherit;
+   display: none;
+    
+    height: 46px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: 3px solid rgb(81, 126, 205);
+    outline:  2px solid black;
+    
+    cursor: pointer;
+    -webkit-text-stroke:0.7px ;
+    -webkit-text-stroke-color: black;
+}
+#multres:hover{
+    outline: none;
+    color: rgb(0, 0, 0);
+   text-shadow: none;
+   background-color: rgb(81, 126, 205);
+}
+#clear2{
+   
+   
+  
+    font-family: inherit;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: 3px solid rgb(81, 126, 205);
+    outline:  2px solid black;
+    
+    cursor: pointer;
+    -webkit-text-stroke:0.7px ;
+    -webkit-text-stroke-color: black;
+ }
+ #clear2:hover{
+     outline: none;
+     color: rgb(0, 0, 0);
+    text-shadow: none;
+    background-color: rgb(81, 126, 205);
+ }
+ 
+ /*mult res btn*/
+ #multres2{
+     position: relative;
+     
+     font-family: inherit;
+    display: none;
+     
+     height: 46px;
+     font-size: 15px;
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+     background-color: rgb(255, 255, 255);
+     border-radius: 2px;
+     border: 3px solid rgb(81, 126, 205);
+     outline:  2px solid black;
+     
+     cursor: pointer;
+     -webkit-text-stroke:0.7px ;
+     -webkit-text-stroke-color: black;
+ }
+ #multres2:hover{
+     outline: none;
+     color: rgb(0, 0, 0);
+    text-shadow: none;
+    background-color: rgb(81, 126, 205);
+ }
+/* the square div */
+.square{
+    display: none;
+    grid-area: content;
+    margin-top: 27px;
+}
+.square span{
+    color: red;
+}
+#n{
+    margin-left: 54px;
+}
+/* the start div */
+.start{
+    display: inline-block;
+   width: 100%;
+   margin-top: 10px;
+   grid-area: start;
+}
+.start span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.start label{
+    font-size: 20px;
+}
+
+.x{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mstr{
+    color:green;
+}
+.nstr{
+    color: red;
+}
+.choosing{
+display: none;
+grid-area: content;
+margin-top: 27px;
+}
+
+.buttons{
+    display: none;
+    grid-template-columns: 2fr 2fr 1fr;
+    width :466px;
+    grid-area: btns;
+   justify-self: center;
+}
+.square span{
+    font-size: large;
+    font-weight: bold;
+}
+/* ok btn */
+#ok{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 1px;
+    font-family: inherit;
+    background-color: rgb(81, 126, 205);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+
+}
+#ok:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#ok2{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 1px;
+    font-family: inherit;
+    background-color: rgb(81, 126, 205);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+
+}
+#ok2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* page div */
+.page{
+    display: grid;
+    grid-template-rows: 60px 23px 2fr 52px;;
+    height: 100vh;
+    grid-template-areas: "header" "start" "content" "btns";
+}
+.sqMarices{
+    display: inline-block;
+}
+.nonsqrMatrix{
+    margin-top: 20px;
+}
+
+
+
